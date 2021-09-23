@@ -13,6 +13,17 @@
 		6C8EA3AF26FCE97400E81C9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8EA3AE26FCE97400E81C9E /* Preview Assets.xcassets */; };
 		6C8EA3B526FCE99800E81C9E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3B426FCE99800E81C9E /* BaseView.swift */; };
 		6C8EA3B726FCE9D100E81C9E /* CustomTabCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3B626FCE9D100E81C9E /* CustomTabCurve.swift */; };
+		6C8EA3BF26FCEB3C00E81C9E /* CustomTabbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3BE26FCEB3C00E81C9E /* CustomTabbarApp.swift */; };
+		6C8EA3C126FCEB3C00E81C9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3C026FCEB3C00E81C9E /* ContentView.swift */; };
+		6C8EA3C326FCEB3D00E81C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8EA3C226FCEB3D00E81C9E /* Assets.xcassets */; };
+		6C8EA3C626FCEB3D00E81C9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8EA3C526FCEB3D00E81C9E /* Preview Assets.xcassets */; };
+		6C8EA3CD26FCEB7B00E81C9E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3CC26FCEB7B00E81C9E /* BaseView.swift */; };
+		6C8EA3CF26FCEB9D00E81C9E /* CustomCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3CE26FCEB9D00E81C9E /* CustomCurveShape.swift */; };
+		6C8EA3D226FCEC1800E81C9E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3D126FCEC1800E81C9E /* BaseViewModel.swift */; };
+		6C8EA3D426FCECC000E81C9E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3D326FCECC000E81C9E /* Home.swift */; };
+		6C8EA3D626FCED1700E81C9E /* Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3D526FCED1700E81C9E /* Heart.swift */; };
+		6C8EA3D826FCED4100E81C9E /* ClipBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3D726FCED4100E81C9E /* ClipBoard.swift */; };
+		6C8EA3DA26FCED6900E81C9E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA3D926FCED6900E81C9E /* Person.swift */; };
 		6CD7BA3E26FCDEE700C89BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7BA3D26FCDEE700C89BB4 /* AppDelegate.swift */; };
 		6CD7BA4026FCDEE700C89BB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7BA3F26FCDEE700C89BB4 /* SceneDelegate.swift */; };
 		6CD7BA4226FCDEE700C89BB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7BA4126FCDEE700C89BB4 /* ContentView.swift */; };
@@ -29,6 +40,18 @@
 		6C8EA3AE26FCE97400E81C9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C8EA3B426FCE99800E81C9E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		6C8EA3B626FCE9D100E81C9E /* CustomTabCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabCurve.swift; sourceTree = "<group>"; };
+		6C8EA3BC26FCEB3C00E81C9E /* CustomTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8EA3BE26FCEB3C00E81C9E /* CustomTabbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarApp.swift; sourceTree = "<group>"; };
+		6C8EA3C026FCEB3C00E81C9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C8EA3C226FCEB3D00E81C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C8EA3C526FCEB3D00E81C9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C8EA3CC26FCEB7B00E81C9E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6C8EA3CE26FCEB9D00E81C9E /* CustomCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveShape.swift; sourceTree = "<group>"; };
+		6C8EA3D126FCEC1800E81C9E /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		6C8EA3D326FCECC000E81C9E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6C8EA3D526FCED1700E81C9E /* Heart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart.swift; sourceTree = "<group>"; };
+		6C8EA3D726FCED4100E81C9E /* ClipBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipBoard.swift; sourceTree = "<group>"; };
+		6C8EA3D926FCED6900E81C9E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		6CD7BA3A26FCDEE700C89BB4 /* SwiftUITabbars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITabbars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD7BA3D26FCDEE700C89BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CD7BA3F26FCDEE700C89BB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +64,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		6C8EA3A226FCE97300E81C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8EA3B926FCEB3C00E81C9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,11 +116,54 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		6C8EA3BD26FCEB3C00E81C9E /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6C8EA3D026FCEC0B00E81C9E /* BaseModel */,
+				6C8EA3CB26FCEB6F00E81C9E /* Views */,
+				6C8EA3BE26FCEB3C00E81C9E /* CustomTabbarApp.swift */,
+				6C8EA3C026FCEB3C00E81C9E /* ContentView.swift */,
+				6C8EA3C226FCEB3D00E81C9E /* Assets.xcassets */,
+				6C8EA3C426FCEB3D00E81C9E /* Preview Content */,
+			);
+			path = CustomTabbar;
+			sourceTree = "<group>";
+		};
+		6C8EA3C426FCEB3D00E81C9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C8EA3C526FCEB3D00E81C9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C8EA3CB26FCEB6F00E81C9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C8EA3CC26FCEB7B00E81C9E /* BaseView.swift */,
+				6C8EA3CE26FCEB9D00E81C9E /* CustomCurveShape.swift */,
+				6C8EA3D326FCECC000E81C9E /* Home.swift */,
+				6C8EA3D526FCED1700E81C9E /* Heart.swift */,
+				6C8EA3D726FCED4100E81C9E /* ClipBoard.swift */,
+				6C8EA3D926FCED6900E81C9E /* Person.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C8EA3D026FCEC0B00E81C9E /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				6C8EA3D126FCEC1800E81C9E /* BaseViewModel.swift */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
 		6CD7BA3126FCDEE700C89BB4 = {
 			isa = PBXGroup;
 			children = (
 				6CD7BA3C26FCDEE700C89BB4 /* SwiftUITabbars */,
 				6C8EA3A626FCE97300E81C9E /* TabbarCurve */,
+				6C8EA3BD26FCEB3C00E81C9E /* CustomTabbar */,
 				6CD7BA3B26FCDEE700C89BB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +173,7 @@
 			children = (
 				6CD7BA3A26FCDEE700C89BB4 /* SwiftUITabbars.app */,
 				6C8EA3A526FCE97300E81C9E /* TabbarCurve.app */,
+				6C8EA3BC26FCEB3C00E81C9E /* CustomTabbar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +220,23 @@
 			productReference = 6C8EA3A526FCE97300E81C9E /* TabbarCurve.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6C8EA3BB26FCEB3C00E81C9E /* CustomTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8EA3C726FCEB3D00E81C9E /* Build configuration list for PBXNativeTarget "CustomTabbar" */;
+			buildPhases = (
+				6C8EA3B826FCEB3C00E81C9E /* Sources */,
+				6C8EA3B926FCEB3C00E81C9E /* Frameworks */,
+				6C8EA3BA26FCEB3C00E81C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTabbar;
+			productName = CustomTabbar;
+			productReference = 6C8EA3BC26FCEB3C00E81C9E /* CustomTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6CD7BA3926FCDEE700C89BB4 /* SwiftUITabbars */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CD7BA4E26FCDEE800C89BB4 /* Build configuration list for PBXNativeTarget "SwiftUITabbars" */;
@@ -175,6 +266,9 @@
 					6C8EA3A426FCE97300E81C9E = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					6C8EA3BB26FCEB3C00E81C9E = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					6CD7BA3926FCDEE700C89BB4 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -195,6 +289,7 @@
 			targets = (
 				6CD7BA3926FCDEE700C89BB4 /* SwiftUITabbars */,
 				6C8EA3A426FCE97300E81C9E /* TabbarCurve */,
+				6C8EA3BB26FCEB3C00E81C9E /* CustomTabbar */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +301,15 @@
 			files = (
 				6C8EA3AF26FCE97400E81C9E /* Preview Assets.xcassets in Resources */,
 				6C8EA3AC26FCE97400E81C9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8EA3BA26FCEB3C00E81C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8EA3C626FCEB3D00E81C9E /* Preview Assets.xcassets in Resources */,
+				6C8EA3C326FCEB3D00E81C9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +334,22 @@
 				6C8EA3AA26FCE97300E81C9E /* ContentView.swift in Sources */,
 				6C8EA3B726FCE9D100E81C9E /* CustomTabCurve.swift in Sources */,
 				6C8EA3A826FCE97300E81C9E /* TabbarCurveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8EA3B826FCEB3C00E81C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8EA3CD26FCEB7B00E81C9E /* BaseView.swift in Sources */,
+				6C8EA3D226FCEC1800E81C9E /* BaseViewModel.swift in Sources */,
+				6C8EA3D826FCED4100E81C9E /* ClipBoard.swift in Sources */,
+				6C8EA3C126FCEB3C00E81C9E /* ContentView.swift in Sources */,
+				6C8EA3CF26FCEB9D00E81C9E /* CustomCurveShape.swift in Sources */,
+				6C8EA3D426FCECC000E81C9E /* Home.swift in Sources */,
+				6C8EA3DA26FCED6900E81C9E /* Person.swift in Sources */,
+				6C8EA3D626FCED1700E81C9E /* Heart.swift in Sources */,
+				6C8EA3BF26FCEB3C00E81C9E /* CustomTabbarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +432,68 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.jovins.TabbarCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C8EA3C826FCEB3D00E81C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomTabbar/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jovins.CustomTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C8EA3C926FCEB3D00E81C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomTabbar/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jovins.CustomTabbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,6 +667,15 @@
 			buildConfigurations = (
 				6C8EA3B126FCE97400E81C9E /* Debug */,
 				6C8EA3B226FCE97400E81C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C8EA3C726FCEB3D00E81C9E /* Build configuration list for PBXNativeTarget "CustomTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8EA3C826FCEB3D00E81C9E /* Debug */,
+				6C8EA3C926FCEB3D00E81C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
