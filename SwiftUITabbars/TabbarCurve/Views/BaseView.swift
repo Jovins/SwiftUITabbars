@@ -45,7 +45,7 @@ struct BaseView: View {
     @ViewBuilder
     func TabbarButtons() -> some View {
         
-        ForEach(["house.fill", "magnifyingglass", "person.fill"], id:\.self) { image in
+        ForEach(["house.fill", "magnifyingglass", "message.fill", "person.fill"], id:\.self) { image in
            
             GeometryReader { proxy in
                 
