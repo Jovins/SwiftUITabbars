@@ -50,6 +50,13 @@
 		6C8EA43326FCF8E400E81C9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8EA43226FCF8E400E81C9E /* Preview Assets.xcassets */; };
 		6C8EA43A26FCF8F300E81C9E /* TabbarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA43826FCF8F300E81C9E /* TabbarShape.swift */; };
 		6C8EA43B26FCF8F300E81C9E /* TabbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA43926FCF8F300E81C9E /* TabbarButton.swift */; };
+		6C8EA44326FCF9B300E81C9E /* AnimatedTabbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA44226FCF9B300E81C9E /* AnimatedTabbarApp.swift */; };
+		6C8EA44526FCF9B300E81C9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA44426FCF9B300E81C9E /* ContentView.swift */; };
+		6C8EA44726FCF9B400E81C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8EA44626FCF9B400E81C9E /* Assets.xcassets */; };
+		6C8EA44A26FCF9B400E81C9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8EA44926FCF9B400E81C9E /* Preview Assets.xcassets */; };
+		6C8EA45026FCF9E700E81C9E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA44F26FCF9E700E81C9E /* Home.swift */; };
+		6C8EA45226FCFC4800E81C9E /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA45126FCFC4800E81C9E /* CustomTabbar.swift */; };
+		6C8EA45426FCFFA900E81C9E /* TabbarCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8EA45326FCFFA900E81C9E /* TabbarCurve.swift */; };
 		6CD7BA3E26FCDEE700C89BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7BA3D26FCDEE700C89BB4 /* AppDelegate.swift */; };
 		6CD7BA4026FCDEE700C89BB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7BA3F26FCDEE700C89BB4 /* SceneDelegate.swift */; };
 		6CD7BA4226FCDEE700C89BB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD7BA4126FCDEE700C89BB4 /* ContentView.swift */; };
@@ -108,6 +115,14 @@
 		6C8EA43226FCF8E400E81C9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C8EA43826FCF8F300E81C9E /* TabbarShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarShape.swift; sourceTree = "<group>"; };
 		6C8EA43926FCF8F300E81C9E /* TabbarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarButton.swift; sourceTree = "<group>"; };
+		6C8EA44026FCF9B300E81C9E /* AnimatedTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8EA44226FCF9B300E81C9E /* AnimatedTabbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabbarApp.swift; sourceTree = "<group>"; };
+		6C8EA44426FCF9B300E81C9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C8EA44626FCF9B400E81C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C8EA44926FCF9B400E81C9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C8EA44F26FCF9E700E81C9E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6C8EA45126FCFC4800E81C9E /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		6C8EA45326FCFFA900E81C9E /* TabbarCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarCurve.swift; sourceTree = "<group>"; };
 		6CD7BA3A26FCDEE700C89BB4 /* SwiftUITabbars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITabbars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD7BA3D26FCDEE700C89BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CD7BA3F26FCDEE700C89BB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +170,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6C8EA42626FCF8E400E81C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8EA43D26FCF9B300E81C9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,6 +390,36 @@
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
+		6C8EA44126FCF9B300E81C9E /* AnimatedTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6C8EA44E26FCF9D200E81C9E /* Views */,
+				6C8EA44226FCF9B300E81C9E /* AnimatedTabbarApp.swift */,
+				6C8EA44426FCF9B300E81C9E /* ContentView.swift */,
+				6C8EA44626FCF9B400E81C9E /* Assets.xcassets */,
+				6C8EA44826FCF9B400E81C9E /* Preview Content */,
+			);
+			path = AnimatedTabbar;
+			sourceTree = "<group>";
+		};
+		6C8EA44826FCF9B400E81C9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C8EA44926FCF9B400E81C9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C8EA44E26FCF9D200E81C9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C8EA44F26FCF9E700E81C9E /* Home.swift */,
+				6C8EA45126FCFC4800E81C9E /* CustomTabbar.swift */,
+				6C8EA45326FCFFA900E81C9E /* TabbarCurve.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6CD7BA3126FCDEE700C89BB4 = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +430,7 @@
 				6C8EA3F726FCF09500E81C9E /* SquareTabbar */,
 				6C8EA40E26FCF6CD00E81C9E /* AnyTabbar */,
 				6C8EA42A26FCF8E400E81C9E /* AninateTabbar */,
+				6C8EA44126FCF9B300E81C9E /* AnimatedTabbar */,
 				6CD7BA3B26FCDEE700C89BB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -392,6 +445,7 @@
 				6C8EA3F626FCF09500E81C9E /* SquareTabbar.app */,
 				6C8EA40D26FCF6CD00E81C9E /* AnyTabbar.app */,
 				6C8EA42926FCF8E400E81C9E /* AninateTabbar.app */,
+				6C8EA44026FCF9B300E81C9E /* AnimatedTabbar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -523,6 +577,23 @@
 			productReference = 6C8EA42926FCF8E400E81C9E /* AninateTabbar.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6C8EA43F26FCF9B300E81C9E /* AnimatedTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8EA44B26FCF9B400E81C9E /* Build configuration list for PBXNativeTarget "AnimatedTabbar" */;
+			buildPhases = (
+				6C8EA43C26FCF9B300E81C9E /* Sources */,
+				6C8EA43D26FCF9B300E81C9E /* Frameworks */,
+				6C8EA43E26FCF9B300E81C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedTabbar;
+			productName = AnimatedTabbar;
+			productReference = 6C8EA44026FCF9B300E81C9E /* AnimatedTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6CD7BA3926FCDEE700C89BB4 /* SwiftUITabbars */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CD7BA4E26FCDEE800C89BB4 /* Build configuration list for PBXNativeTarget "SwiftUITabbars" */;
@@ -567,6 +638,9 @@
 					6C8EA42826FCF8E400E81C9E = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					6C8EA43F26FCF9B300E81C9E = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					6CD7BA3926FCDEE700C89BB4 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -592,6 +666,7 @@
 				6C8EA3F526FCF09500E81C9E /* SquareTabbar */,
 				6C8EA40C26FCF6CD00E81C9E /* AnyTabbar */,
 				6C8EA42826FCF8E400E81C9E /* AninateTabbar */,
+				6C8EA43F26FCF9B300E81C9E /* AnimatedTabbar */,
 			);
 		};
 /* End PBXProject section */
@@ -648,6 +723,15 @@
 			files = (
 				6C8EA43326FCF8E400E81C9E /* Preview Assets.xcassets in Resources */,
 				6C8EA43026FCF8E400E81C9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8EA43E26FCF9B300E81C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8EA44A26FCF9B400E81C9E /* Preview Assets.xcassets in Resources */,
+				6C8EA44726FCF9B400E81C9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +818,18 @@
 				6C8EA43B26FCF8F300E81C9E /* TabbarButton.swift in Sources */,
 				6C8EA43A26FCF8F300E81C9E /* TabbarShape.swift in Sources */,
 				6C8EA42C26FCF8E400E81C9E /* AninateTabbarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8EA43C26FCF9B300E81C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8EA45226FCFC4800E81C9E /* CustomTabbar.swift in Sources */,
+				6C8EA44526FCF9B300E81C9E /* ContentView.swift in Sources */,
+				6C8EA45426FCFFA900E81C9E /* TabbarCurve.swift in Sources */,
+				6C8EA45026FCF9E700E81C9E /* Home.swift in Sources */,
+				6C8EA44326FCF9B300E81C9E /* AnimatedTabbarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1137,6 +1233,68 @@
 			};
 			name = Release;
 		};
+		6C8EA44C26FCF9B400E81C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimatedTabbar/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jovins.AnimatedTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C8EA44D26FCF9B400E81C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimatedTabbar/Preview Content\"";
+				DEVELOPMENT_TEAM = SJM6GRJ299;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jovins.AnimatedTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6CD7BA4C26FCDEE800C89BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1348,6 +1506,15 @@
 			buildConfigurations = (
 				6C8EA43526FCF8E400E81C9E /* Debug */,
 				6C8EA43626FCF8E400E81C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C8EA44B26FCF9B400E81C9E /* Build configuration list for PBXNativeTarget "AnimatedTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8EA44C26FCF9B400E81C9E /* Debug */,
+				6C8EA44D26FCF9B400E81C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
